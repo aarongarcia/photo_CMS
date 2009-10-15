@@ -1,0 +1,184 @@
+============================================
+Log Created: 2009-09-05T23:03:24-05:00
+============================================
+Symphony Log
+Version: 2.0.6
+--------------------------------------------
+2009/09/05 23:03:24 > WARNING: 512 - MySQL Error (1054): Unknown column 'Array' in 'where clause' in query "SELECT `section_id` FROM `sym_entries` WHERE `id` = Array LIMIT 1" in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.mysql.php on line 401
+2009/09/05 23:03:24 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('6') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('6') LIMIT 1" in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.mysql.php on line 401
+2009/09/05 23:03:24 > WARNING: 2 - Illegal offset type in isset or empty in file /Applications/MAMP/htdocs/kelseyfoster.net/extensions/selectbox_link_field/fields/field.selectbox_link.php on line 75
+2009/09/05 23:03:24 > WARNING: 2 - Illegal offset type in file /Applications/MAMP/htdocs/kelseyfoster.net/extensions/selectbox_link_field/fields/field.selectbox_link.php on line 76
+2009/09/05 23:03:24 > WARNING: 2 - Illegal offset type in file /Applications/MAMP/htdocs/kelseyfoster.net/extensions/selectbox_link_field/fields/field.selectbox_link.php on line 80
+2009/09/05 23:03:24 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/emerson-1250475813.png in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/09/05 23:04:14 > WARNING: 512 - MySQL Error (1054): Unknown column 'Array' in 'where clause' in query "SELECT `section_id` FROM `sym_entries` WHERE `id` = Array LIMIT 1" in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.mysql.php on line 401
+2009/09/05 23:04:14 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('6') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('6') LIMIT 1" in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.mysql.php on line 401
+2009/09/05 23:04:14 > WARNING: 2 - Illegal offset type in isset or empty in file /Applications/MAMP/htdocs/kelseyfoster.net/extensions/selectbox_link_field/fields/field.selectbox_link.php on line 75
+2009/09/05 23:04:14 > WARNING: 2 - Illegal offset type in file /Applications/MAMP/htdocs/kelseyfoster.net/extensions/selectbox_link_field/fields/field.selectbox_link.php on line 76
+2009/09/05 23:04:14 > WARNING: 2 - Illegal offset type in file /Applications/MAMP/htdocs/kelseyfoster.net/extensions/selectbox_link_field/fields/field.selectbox_link.php on line 80
+2009/09/05 23:04:14 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/emerson-1250475813.png in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/09/05 23:04:16 > WARNING: 512 - MySQL Error (1054): Unknown column 'Array' in 'where clause' in query "SELECT `section_id` FROM `sym_entries` WHERE `id` = Array LIMIT 1" in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.mysql.php on line 401
+2009/09/05 23:04:16 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('6') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('6') LIMIT 1" in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.mysql.php on line 401
+2009/09/05 23:04:16 > WARNING: 2 - Illegal offset type in isset or empty in file /Applications/MAMP/htdocs/kelseyfoster.net/extensions/selectbox_link_field/fields/field.selectbox_link.php on line 75
+2009/09/05 23:04:16 > WARNING: 2 - Illegal offset type in file /Applications/MAMP/htdocs/kelseyfoster.net/extensions/selectbox_link_field/fields/field.selectbox_link.php on line 76
+2009/09/05 23:04:16 > WARNING: 2 - Illegal offset type in file /Applications/MAMP/htdocs/kelseyfoster.net/extensions/selectbox_link_field/fields/field.selectbox_link.php on line 80
+2009/09/05 23:04:16 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/emerson-1250475813.png in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/09/05 23:09:30 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/03-1250375639.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:09:55 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/07-1250375503.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:10:17 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/05-1250375351.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 376
+2009/09/05 23:10:17 > WARNING: 2 - filemtime() [function.filemtime]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/05-1250375351.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 450
+2009/09/05 23:10:17 > WARNING: 512 - MySQL Error (1048): Column 'size' cannot be null in query "INSERT INTO `sym_entries_data_33` (`entry_id`, `file`, `mimetype`, `size`, `meta`) VALUES ('3', '/portfolio/05-1250375351.jpg', 'image/jpg', NULL, 'a:1:{s:8:\"creation\";s:25:\"2009-09-05T23:10:17-05:00\";}')" in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.mysql.php on line 401
+2009/09/05 23:10:53 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/ in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:11:13 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/04-1250375725.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:11:30 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/06-1250375488.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:11:46 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/JAE_9586-1250375837.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:12:03 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/DSC_0887-1250375889.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:12:17 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/01-1250375477.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:12:33 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/3759845915_49c170ae47_o-1250376095.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:12:47 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/3760642746_8c6a98f246_o-1250376115.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/09/05 23:12:50 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/3760642746_8c6a98f246_o-1250376115.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/09/05 23:12:54 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/3760642746_8c6a98f246_o-1250376115.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/09/05 23:12:57 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/3760642746_8c6a98f246_o-1250376115.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/09/05 23:13:01 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/3760642746_8c6a98f246_o-1250376115.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/09/05 23:13:20 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/portfolio/3760642746_8c6a98f246_o-1250376115.jpg in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:15:28 > WARNING: 512 - Unable to remove file - /Applications/MAMP/htdocs/kelseyfoster.net/workspace/ in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.general.php on line 546
+2009/09/05 23:31:19 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:23: parser error : attributes construct error
+Line: 75 - XSLTProcessor::importStylesheet():         
+2009/09/05 23:45:46 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:22: parser error : Opening and ending tag mismatch: ul line 19 and div
+Line: 75 - XSLTProcessor::importStylesheet():         
+Line: 75 - XSLTProcessor::importStylesheet():               ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:28: parser error : Opening and ending tag mismatch: div line 17 and xsl:for-each
+Line: 75 - XSLTProcessor::importStylesheet():     
+Line: 75 - XSLTProcessor::importStylesheet():                    ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:28: parser error : Opening and ending tag mismatch: for-each line 16 and template
+Line: 75 - XSLTProcessor::importStylesheet():     
+Line: 75 - XSLTProcessor::importStylesheet():                                   ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:30: parser error : Opening and ending tag mismatch: template line 15 and stylesheet
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                  ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:31: parser error : Premature end of data in tag stylesheet line 2
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet(): ^
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/05 23:45:47 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:22: parser error : Opening and ending tag mismatch: ul line 19 and div
+Line: 75 - XSLTProcessor::importStylesheet():         
+Line: 75 - XSLTProcessor::importStylesheet():               ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:28: parser error : Opening and ending tag mismatch: div line 17 and xsl:for-each
+Line: 75 - XSLTProcessor::importStylesheet():     
+Line: 75 - XSLTProcessor::importStylesheet():                    ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:28: parser error : Opening and ending tag mismatch: for-each line 16 and template
+Line: 75 - XSLTProcessor::importStylesheet():     
+Line: 75 - XSLTProcessor::importStylesheet():                                   ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:30: parser error : Opening and ending tag mismatch: template line 15 and stylesheet
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                  ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:31: parser error : Premature end of data in tag stylesheet line 2
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet(): ^
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/05 23:56:06 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:25: parser error : Opening and ending tag mismatch: div line 17 and xsl:for-each
+Line: 75 - XSLTProcessor::importStylesheet():     
+Line: 75 - XSLTProcessor::importStylesheet():                    ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:31: parser error : Opening and ending tag mismatch: for-each line 27 and div
+Line: 75 - XSLTProcessor::importStylesheet():         
+Line: 75 - XSLTProcessor::importStylesheet():               ^
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/05 23:56:12 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:25: parser error : Opening and ending tag mismatch: div line 17 and xsl:for-each
+Line: 75 - XSLTProcessor::importStylesheet():     
+Line: 75 - XSLTProcessor::importStylesheet():                    ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:31: parser error : Opening and ending tag mismatch: for-each line 27 and div
+Line: 75 - XSLTProcessor::importStylesheet():         
+Line: 75 - XSLTProcessor::importStylesheet():               ^
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/05 23:56:27 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:25: parser error : Opening and ending tag mismatch: div line 17 and xsl:for-each
+Line: 75 - XSLTProcessor::importStylesheet():     
+Line: 75 - XSLTProcessor::importStylesheet():                    ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:26: parser error : Opening and ending tag mismatch: for-each line 16 and template
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:32: parser error : Opening and ending tag mismatch: for-each line 28 and div
+Line: 75 - XSLTProcessor::importStylesheet():         
+Line: 75 - XSLTProcessor::importStylesheet():               ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:38: parser error : Opening and ending tag mismatch: template line 27 and for-each
+Line: 75 - XSLTProcessor::importStylesheet():     
+Line: 75 - XSLTProcessor::importStylesheet():                    ^
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/05 23:57:10 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:29: parser error : Opening and ending tag mismatch: for-each line 25 and div
+Line: 75 - XSLTProcessor::importStylesheet():         
+Line: 75 - XSLTProcessor::importStylesheet():               ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:35: parser error : Opening and ending tag mismatch: div line 17 and xsl:for-each
+Line: 75 - XSLTProcessor::importStylesheet():     
+Line: 75 - XSLTProcessor::importStylesheet():                    ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:36: parser error : Opening and ending tag mismatch: for-each line 16 and template
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:38: parser error : Opening and ending tag mismatch: template line 15 and stylesheet
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet():                  ^
+Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:39: parser error : Premature end of data in tag stylesheet line 2
+Line: 75 - XSLTProcessor::importStylesheet(): 
+Line: 75 - XSLTProcessor::importStylesheet(): ^
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/05 23:57:24 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl:31: parser error : Opening and ending tag mismatch: for-each line 27 and div
+Line: 75 - XSLTProcessor::importStylesheet():         
+Line: 75 - XSLTProcessor::importStylesheet():               ^
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/ line 3 element import
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:import : unable to load /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/06 00:00:26 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): Invalid expression
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl line 33 element value-of
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:value-of : could not compile select expression 'body*'
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/06 00:00:31 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): Invalid expression
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl line 31 element for-each
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:for-each : could not compile select expression '/data/about/entry[@id = 12]*'
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/06 00:00:42 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): Invalid expression
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl line 31 element for-each
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:for-each : could not compile select expression '/data/about/entry[@id = 12]*'
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/06 00:27:52 > ERROR: 256 - Line: 90 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function body not found
+Line: 90 - XSLTProcessor::transformToXml(): Unregistered function
+Line: 90 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl line 33 element value-of
+Line: 90 - XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+2009/09/06 00:27:54 > ERROR: 256 - Line: 90 - XSLTProcessor::transformToXml(): xmlXPathCompOpEval: function body not found
+Line: 90 - XSLTProcessor::transformToXml(): Unregistered function
+Line: 90 - XSLTProcessor::transformToXml(): xmlXPathCompiledEval: evaluation failed
+Line: 90 - XSLTProcessor::transformToXml(): runtime error: file /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl line 33 element value-of
+Line: 90 - XSLTProcessor::transformToXml(): XPath evaluation returned no result.
+2009/09/06 00:27:59 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): Invalid expression
+Line: 75 - XSLTProcessor::importStylesheet(): compilation error: file /Applications/MAMP/htdocs/kelseyfoster.net/workspace/pages/about.xsl line 33 element value-of
+Line: 75 - XSLTProcessor::importStylesheet(): xsl:value-of : could not compile select expression 'body/()'
+Line: 90 - XSLTProcessor::transformToXml(): No stylesheet associated to this object
+2009/09/06 00:50:53 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/utilities/master.xsl:54: parser error : attributes construct error
+Line: 75 - XSLTProcessor::importStylesheet():     
+2009/09/06 00:50:59 > ERROR: 256 - Line: 75 - XSLTProcessor::importStylesheet(): /Applications/MAMP/htdocs/kelseyfoster.net/workspace/utilities/master.xsl:54: parser error : attributes construct error
+Line: 75 - XSLTProcessor::importStylesheet():     
+2009/09/07 16:02:58 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/kelsey_bio.png in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/09/21 19:36:55 > WARNING: 2 - filesize() [function.filesize]: stat failed for /Applications/MAMP/htdocs/kelseyfoster.net/workspace/kelsey_bio.png in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/fields/field.upload.php on line 182
+2009/10/09 16:56:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1 in query "SELECT `section_id` FROM `sym_entries` WHERE `id` =  LIMIT 1" in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.mysql.php on line 401
+2009/10/09 16:56:53 > WARNING: 512 - MySQL Error (1064): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND f.id IN ('6') LIMIT 1' at line 4 in query "SELECT f.`id` AS `field_id`
+				FROM `sym_fields` AS `f` 
+				LEFT JOIN `sym_sections` AS `s` ON f.parent_section = s.id
+				WHERE `s`.id =  AND f.id IN ('6') LIMIT 1" in file /Applications/MAMP/htdocs/kelseyfoster.net/symphony/lib/toolkit/class.mysql.php on line 401

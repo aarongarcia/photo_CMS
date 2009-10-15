@@ -1,0 +1,35 @@
+============================================
+Log Created: 2009-08-15T13:24:02-05:00
+============================================
+Symphony Installer Log
+Opened: 2009-08-15T13:24:02-05:00
+Version: 2.0.6
+Domain: http://localhost:8888/kelseyfoster.net
+--------------------------------------------
+2009/08/15 13:26:02 > NOTICE: Configuration - Could not establish database connection
+2009/08/15 13:26:13 > NOTICE: Configuration - Could not establish database connection
+2009/08/15 13:26:20 > NOTICE: Configuration - Could not establish database connection
+2009/08/15 13:26:24 > NOTICE: Configuration - Could not establish database connection
+2009/08/15 13:26:28 > NOTICE: Configuration - Database 'kelsey' Not Found
+
+============================================
+INSTALLATION PROCESS STARTED (2009-08-15T13:27:39-05:00)
+============================================
+2009/08/15 13:27:39 > NOTICE: MYSQL: Establishing Connection...Done
+2009/08/15 13:27:39 > NOTICE: MYSQL: Selecting Database 'kelsey'...Done
+2009/08/15 13:27:39 > NOTICE: MYSQL: Importing Table Schema...Done
+2009/08/15 13:27:39 > NOTICE: MYSQL: Creating Default Author...Done
+2009/08/15 13:27:39 > NOTICE: WRITING: Creating 'manifest' folder (/manifest)
+2009/08/15 13:27:39 > NOTICE: WRITING: Creating 'logs' folder (/manifest/logs)
+2009/08/15 13:27:39 > NOTICE: WRITING: Creating 'cache' folder (/manifest/cache)
+2009/08/15 13:27:39 > NOTICE: WRITING: Creating 'tmp' folder (/manifest/tmp)
+2009/08/15 13:27:39 > NOTICE: WRITING: Configuration File
+2009/08/15 13:27:39 > NOTICE: CONFIGURING: Frontend
+2009/08/15 13:27:39 > NOTICE: MYSQL: Importing Workspace Data...Done
+2009/08/15 13:27:39 > NOTICE: Installation Process Completed In 1 sec
+============================================
+INSTALLATION COMPLETED: Execution Time - 1 sec (15.08.09 13:27:39)
+============================================
+
+
+

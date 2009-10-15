@@ -1,0 +1,17 @@
+.jqGSContainer{position:relative;margin:0 auto; width:800px; height: 600px;}
+.jqGSContainer .jqGSImgContainer{}
+.jqGSContainer .jqGSImgContainer ul{padding:0;margin:0;position:relative;list-style:none;}
+.jqGSContainer .jqGSImgContainer ul li{padding:0;margin:0;position:relative;margin-top:0;margin-bottom:0px;float:left;}
+.jqGSContainer .jqGSImgContainer ul li .jqGSLoader{width:100%;height:100%;position:absolute;}
+.jqGSContainer .jqGSImgContainer ul li img{border:1px solid #fff;}
+.jqGSContainer .jqGSImgContainer ul li .jqGSTitle{position:absolute;right:0px;bottom:-36px; padding:3px;}
+
+
+.jqGSContainer .jqGSPagination{position:relative;width:100%;height:30px;left:0px;bottom:100px;padding: 5px 0;border-bottom:3px solid #dddad6;}
+.jqGSContainer .jqGSPagination ul{padding:0;margin:0;list-style:none;position:relative;float:left;}
+.jqGSContainer .jqGSPagination ul li{padding:0;margin-right:5px;float:left;padding-right:1px;text-align:center;padding-bottom:1px;}
+.jqGSContainer .jqGSPagination ul li a{padding:2px 0px;background:#dddad6;border:1px solid #fff; color: #fff;text-decoration:none;display:block;width:20px;font:10px Verdana, Arial, Helvetica, sans-serif;}
+.jqGSContainer .jqGSPagination ul li a.selected{background:#dddad6;color:#f03;border: 1px solid #eaeaea;cursor:default!important;}
+.jqGSContainer .jqGSPagination ul li a:hover{background:#ccc;color:#000;border:1px solid #fff;}
+
+.jqGSImgContainer{overflow-y:visible!important;height:625px!important;}
